@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pulsanti con Timestamp</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="button-container">
+        <button class="button" data-button="Carne Bianca">Carne Bianca</button>
+        <button class="button" data-button="Pesce">Pesce</button>
+        <button class="button" data-button="Vegano/Legumi">Vegano/Legumi</button>
+        <button class="button" data-button="Uova">Uova</button>
+        <button class="button" data-button="Formaggi">Formaggi</button>
+        <button class="button" data-button="Carne Rossa">Carne Rossa</button>
+    </div>
+
+    <div class="meal-selection">
+        <label for="meal-type">Tipo di Pasto:</label>
+        <select id="meal-type">
+            <option value="Pranzo">Pranzo</option>
+            <option value="Cena">Cena</option>
+        </select>
+    </div>
+
+    <div class="log-container">
+        <h2>Log dei Pulsanti Cliccati</h2>
+        <ul id="log-list"></ul>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
